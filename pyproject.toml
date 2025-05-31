@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gdg_json"
+version = "0.0.1"
+description = "A simplified JSON parser"
+authors = [
+    {name = "Grant Smith", email = "grant@gordondatagroup.com"}
+]
+requires-python = ">=3.13.2"
+license = "MIT"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[tool.black]
+line-length = 88
+target-version = ['py313']
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+
+[project.urls]
+Homepage = "https://www.gordondatagroup.com/"
