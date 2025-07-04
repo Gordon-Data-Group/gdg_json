@@ -4,9 +4,9 @@ from setuptools import setup, find_packages
 
 setup(
     name="gdg_json",
-    version="0.0.1",
+    version="0.0.2",
     packages=find_packages(),
-    install_requires=[],
+    install_requires=["polars>=1.30.0"],
     author="Gordon Data Group",
     author_email="grant@gordondatagroup.com",
     description="A simplified JSON parser",
