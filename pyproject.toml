@@ -9,7 +9,7 @@ description = "A simplified JSON parser"
 authors = [
     {name = "Grant Smith", email = "grant@gordondatagroup.com"}
 ]
-requires-python = ">=3.13.2"
+requires-python = ">=3.12"
 license = "MIT"
 readme = "README.md"
 classifiers = [
