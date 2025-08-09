@@ -26,7 +26,3 @@ print(result)  # {'key': 'value'}
    - Windows: `.venv\Scripts\activate`
    - Unix/MacOS: `source .venv/bin/activate`
 4. Install development dependencies: `pip install -e .`
-
-## License
-
-(c) 2025 Gordon Data Group

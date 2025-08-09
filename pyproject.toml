@@ -11,11 +11,13 @@ authors = [
 ]
 requires-python = ">=3.12"
 license = "MIT"
+license-files = ["LICEN[CS]E*"]
 readme = "README.md"
 classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
 ]
+dependencies = ['polars>=1.30.0']
 
 [tool.black]
 line-length = 88
@@ -26,4 +28,5 @@ profile = "black"
 multi_line_output = 3
 
 [project.urls]
-Homepage = "https://www.gordondatagroup.com/"
+Homepage = "https://github.com/gordon-data-group/gdg_json"
+Issues = "https://github.com/gordon-data-group/gdg_json/issues"
